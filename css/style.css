@@ -132,6 +132,20 @@ img {
  /* Impostazione larghezza con larghezza schermo < 768px */
  @media screen and (max-width: 768px )  {
     .container{
-        max-width: 100%;
+        width: 100%;
+    }
+ }
+
+  /* Impostazione larghezza con larghezza schermo < 480px */
+ @media screen and (max-width: 480px )  {
+
+    .container .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+   .container .col{
+        width: 100%;
+        padding-bottom: 50px;
     }
  }

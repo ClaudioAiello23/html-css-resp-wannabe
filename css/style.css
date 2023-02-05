@@ -143,7 +143,6 @@ img {
         width: 100%;
     }
  }
- 
 
   /* Impostazione Responsive con larghezza schermo < 480px */
  @media screen and (max-width: 480px )  {

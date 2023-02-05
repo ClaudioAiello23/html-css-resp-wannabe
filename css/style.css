@@ -129,14 +129,23 @@ img {
  ************************************************/
 
 
- /* Impostazione larghezza con larghezza schermo < 768px */
- @media screen and (max-width: 768px )  {
+  /* Impostazione Responsive con larghezza schermo < 1160px */
+  @media screen and (max-width: 1160px )  {
     .container{
         width: 100%;
     }
  }
 
-  /* Impostazione larghezza con larghezza schermo < 480px */
+
+ /* Impostazione Responsive con larghezza schermo < 768px */
+ @media screen and (max-width: 768px )  {
+    .container{
+        width: 100%;
+    }
+ }
+ 
+
+  /* Impostazione Responsive con larghezza schermo < 480px */
  @media screen and (max-width: 480px )  {
 
     .container .row{
@@ -149,3 +158,4 @@ img {
         padding-bottom: 50px;
     }
  }
+

@@ -147,6 +147,10 @@ img {
   /* Impostazione Responsive con larghezza schermo < 480px */
  @media screen and (max-width: 480px )  {
 
+    .why-us .container{
+        background-color: black;
+    }
+    
     .container .row{
         flex-direction: column;
         align-items: center;
